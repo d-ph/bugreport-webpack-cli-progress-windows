@@ -5,7 +5,7 @@ Prerequisites:
 
 Steps:
 1. `npm install`
-2. `npm run build`
+1. `npm run build`
 
 Result:
 During compilation, the progress indication trashes the console.
