@@ -1,0 +1,40 @@
+{
+  "name": "bugreport-webpack-cli-progress-windows",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "rimraf": "rimraf",
+    "webpack": "webpack",
+    "clean:dist": "rimraf dist",
+    "prebuild": "npm run clean:dist",
+    "build": "webpack --progress --hide-modules"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/common": "~2.4.0",
+    "@angular/compiler": "~2.4.0",
+    "@angular/core": "~2.4.0",
+    "@angular/forms": "~2.4.0",
+    "@angular/http": "~2.4.0",
+    "@angular/platform-browser": "~2.4.0",
+    "@angular/platform-browser-dynamic": "~2.4.0",
+    "@angular/router": "~3.4.0",
+    "angular-in-memory-web-api": "~0.2.2",
+    "bluebird": "^3.4.7",
+    "core-js": "^2.4.1",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "5.0.1",
+    "systemjs": "0.19.40",
+    "tslib": "^1.2.0",
+    "zone.js": "^0.7.4"
+  },
+  "devDependencies": {
+    "@types/bluebird": "^2.0.30",
+    "awesome-typescript-loader": "^3.0.0-beta",
+    "rimraf": "^2.5.4",
+    "typescript": "~2.1.0",
+    "webpack": "2.2.0-rc.2"
+  }
+}
